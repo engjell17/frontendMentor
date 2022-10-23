@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  background-color: #d6e1ff;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: 40%;
+  border-radius: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  background-color: whitesmoke;
+}
+body:hover {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.281);
+
+  transition: 0.7s;
+}
+.hero {
+  display: block;
+  width: 100%;
+
+  border-radius: 1rem 1rem 0 0;
+}
+h1 {
+  margin: 50px 0 0 0;
+  font-size: 3rem;
+}
+.kot {
+  margin: 2rem auto;
+  color: #00000085;
+  font-size: 1.3rem;
+}
+.payment {
+  background-color: rgba(128, 128, 128, 0.183);
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+button {
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-color: white;
+  color: white;
+  background-color: #766cf1;
+  font-weight: 900;
+}
+button:hover {
+  background-color: #5a52ad;
+}
+.cancel {
+  background-color: rgba(220, 215, 204, 0.199);
+  color: black;
+}
+.cancel:hover {
+  background-color: rgba(255, 0, 0, 0.516);
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  color: red;
+}
