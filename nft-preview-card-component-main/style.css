@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: rgb(12, 23, 41);
+}
+
+section {
+  width: 30%;
+  background-color: rgb(21, 39, 63);
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.figure {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+h1 {
+  margin: 1rem;
+}
+p {
+  margin: 1rem;
+  color: rgb(118, 141, 172);
+}
+.eth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.number {
+  color: rgb(0, 255, 248);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 28%;
+}
+.days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 28%;
+}
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.avatar {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 10%;
+}
+hr {
+  border: 1px solid whitesmoke;
+}

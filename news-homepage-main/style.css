@@ -1,0 +1,130 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;800&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 4rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.news hr {
+  background-color: gray;
+  border: 0.5px solid gray;
+  width: 90%;
+  align-self: center;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  width: 50%;
+}
+li a {
+  color: hsl(236, 13%, 42%);
+  text-decoration: none;
+}
+li a:hover {
+  color: red;
+}
+.news {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.news h1 {
+  color: orange;
+  margin: 0.5rem 1rem;
+  transition: 2s;
+}
+.news p {
+  color: hsl(233, 8%, 79%);
+}
+.news a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+.news a:hover {
+  color: hsl(35, 77%, 62%);
+  transition: 0.3s;
+}
+aside a {
+  color: white;
+  background-color: rgb(241, 93, 81);
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  letter-spacing: 2px;
+  margin: 1rem;
+}
+aside a:hover {
+  background-color: black;
+}
+aside p {
+  line-height: 27px;
+  color: hsl(236, 13%, 42%);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+footer h2,
+a,
+p {
+  margin: 1rem;
+}
+footer a {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+footer a:hover {
+  color: rgb(241, 93, 81);
+  transition: 0.3s;
+}
+footer img {
+  width: 100px;
+}
+.kot {
+  margin: 1rem;
+}
+.f-txt h2 {
+  color: hsl(233, 8%, 79%);
+  font-size: 2rem;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+figure img {
+  width: 100%;
+}
+figure {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.news {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}

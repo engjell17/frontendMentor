@@ -1,17 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  font-family: system-ui;
+  font-family: "Montserrat", sans-serif;
 }
 html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f3eae3;
+  background-color: hsl(30, 38%, 92%);
 }
 .perfume {
   width: 100%;
@@ -21,34 +20,38 @@ html {
 }
 body {
   width: 50%;
-  height: 50%;
-  margin: 2rem auto;
+  margin: 4rem auto;
   background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-radius: 1rem;
 }
 .perview {
-  margin: 2rem;
-  letter-spacing: 5px;
+  margin: 2rem 2rem 1rem 2rem;
+  letter-spacing: 7px;
 }
 h1 {
-  margin: 2rem;
-  font-size: 2.5rem;
+  margin: 0rem 2.5rem;
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
 }
 p {
   margin: 2rem;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  line-height: 1.7rem;
 }
 .price {
   font-size: 2rem;
-  color: #3d8168;
+  color: rgb(60, 128, 103);
   font-weight: 700;
+  font-family: "Fraunces", serif;
 }
 span {
   font-size: 1rem;
   text-decoration: line-through;
   margin-left: 10px;
-  color: black;
+  color: hsl(228, 12%, 48%);
 }
 button {
   margin: 2rem;
@@ -57,7 +60,7 @@ button {
   border: none;
   border-radius: 0.8rem;
   color: white;
-  background-color: #3d8168;
+  background-color: rgb(60, 128, 103);
   display: flex;
   justify-content: center;
   align-items: center;
